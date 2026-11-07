@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.beknownllc/the-marketing-vault",
+  "title": "The Marketing Vault",
+  "description": "Write offers, sales pages, emails, ads and traffic plans from your saved business profile.",
+  "version": "1.0.0",
+  "websiteUrl": "https://marketerprompts.com/mcp",
+  "repository": {
+    "url": "https://github.com/beknownllc/the-marketing-vault-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://marketerprompts.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agsuleyeonapmldynizb.supabase.co/functions/v1/mcp"
+    }
+  ]
+}
